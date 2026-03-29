@@ -1,4 +1,4 @@
-import test from "@playwright/test";
+import test, { expect } from "@playwright/test";
 
 test('Playwright Frames test', async ({page}) => {
     await page.goto('https://practice-automation.com/iframes/');
